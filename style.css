@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Big Shoulders Display", sans-serif;
+    background: hsl(0, 0%, 95%);
+    font-size: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 7rem 10rem 10rem 10rem;
+
+
+}
+
+.section1 {
+    background: hsl(31, 77%, 52%);
+    color: #fff;
+    padding: 2rem;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 2rem;
+
+}
+
+.section2 {
+    background: hsl(184, 100%, 22%);
+    color: #fff;
+    padding: 2rem;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+
+
+
+}
+
+.section3 {
+    background: hsl(179, 100%, 13%);
+    color: #fff;
+    padding: 2rem;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 2rem;
+
+}
+
+img {
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+p {
+    line-height: 1.8;
+    font-size: 20x;
+    padding: 20px
+}
+
+.btn1 {
+    margin-top: 2rem;
+    padding: 20px;
+    font-size: 15px;
+    display: inline-block;
+    border-radius: 2rem;
+    border: none;
+    color: hsl(31, 77%, 52%);
+}
+
+.btn2 {
+    margin-top: 2rem;
+    padding: 20px;
+    font-size: 15px;
+    display: inline-block;
+    border-radius: 2rem;
+    border: none;
+    color: hsl(184, 100%, 22%);
+}
+
+.btn3 {
+    margin-top: 2rem;
+    padding: 20px;
+    font-size: 15px;
+    display: inline-block;
+    border-radius: 2rem;
+    border: none;
+    color: hsl(179, 100%, 13%);
+}
+
+@media(max-width:700px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin: 0.7rem;
+        border-radius: 2rem;
+        width: 85%;
+    }
+}
