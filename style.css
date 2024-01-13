@@ -9,121 +9,124 @@
 
 body {
     font-family: "Big Shoulders Display", sans-serif;
-    background: hsl(0, 0%, 95%);
-    font-size: 20px;
-}
-
-.container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    margin: 7rem 10rem 10rem 10rem;
-
-
-}
-
-.section1 {
-    background: hsl(31, 77%, 52%);
+    display: flex;
+    background: #ccc;
     color: #fff;
-    padding: 2rem;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    border-radius: 2rem;
-
 }
 
-.section2 {
-    background: hsl(184, 100%, 22%);
-    color: #fff;
-    padding: 2rem;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-
-
-
-}
-
+.section1,
+.section2,
 .section3 {
-    background: hsl(179, 100%, 13%);
-    color: #fff;
-    padding: 2rem;
-    height: 100%;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    border-radius: 2rem;
+    align-items: center;
+
+
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+    background: hsl(31, 77%, 52%);
+    height: 70vh;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 7rem;
+    margin-top: 7rem;
+    border-radius: 0.5rem;
+
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+    background: hsl(184, 100%, 22%);
+    height: 70vh;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    bottom: 0;
+    right: 0;
+    margin-top: 7rem;
+    border-radius: 0.5rem;
+
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    background: hsl(179, 100%, 13%);
+    height: 70vh;
+    width: auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-right: 20px;
+    margin-right: 7rem;
+    margin-top: 7rem;
+    border-radius: 0.5rem;
 
 }
 
 img {
-    padding-bottom: 20px;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-left: 70px;
 }
 
 h1 {
+    width: 70px;
     font-size: 40px;
-    font-weight: bold;
+    font-weight: 800;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-right: 10rem;
 }
 
 p {
-    line-height: 1.8;
-    font-size: 20x;
-    padding: 20px
+    font-size: 20px;
+    line-height: 1.0;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin-top: 50px;
+
 }
 
-.btn1 {
-    margin-top: 2rem;
-    padding: 20px;
-    font-size: 15px;
-    display: inline-block;
-    border-radius: 2rem;
-    border: none;
+.btn {
+    margin: 4rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    outline: none;
     color: hsl(31, 77%, 52%);
+    border: none;
 }
 
 .btn2 {
-    margin-top: 2rem;
-    padding: 20px;
-    font-size: 15px;
-    display: inline-block;
-    border-radius: 2rem;
-    border: none;
+    margin: 4rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    outline: none;
     color: hsl(184, 100%, 22%);
+    border: none;
 }
 
 .btn3 {
-    margin-top: 2rem;
-    padding: 20px;
-    font-size: 15px;
-    display: inline-block;
-    border-radius: 2rem;
-    border: none;
+    margin: 4rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    outline: none;
     color: hsl(179, 100%, 13%);
-}
-
-@media(max-width:700px) {
-    .container {
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        margin: 0.7rem;
-        border-radius: 2rem;
-        width: 85%;
-    }
+    border: none;
 }
