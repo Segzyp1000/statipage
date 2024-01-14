@@ -128,3 +128,10 @@ p {
         width: 85%;
     }
 }
+
+@media(min-width:701px) and (max-width: 992px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
